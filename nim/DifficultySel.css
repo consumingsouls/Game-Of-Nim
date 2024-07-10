@@ -1,0 +1,109 @@
+body {
+    background-color: #2c2c2c;
+    font-family: 'Chalk Dash', sans-serif; /* Using 'Chalk Dash' font */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#chalkboard {
+    background-color: #4c4c4c;
+    border: 10px solid #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px; /* Increased width for more space */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.back-arrow {
+    text-decoration: none;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.game-players {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.game-player {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.dif-easy {
+    background-color: #a8e6cf;
+    color: #333;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-shadow: 1px 1px #61a189;
+    font-family: 'Chalk Dash', sans-serif; /* Using 'Chalk Dash' font */
+}
+
+.dif-easy:hover {
+    background-color: #88d6bf;
+    transform: scale(1.05);
+}
+
+.dif-medium {
+    background-color: #ffd3b6;
+    color: #333;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-shadow: 1px 1px #9b7156;
+    font-family: 'Chalk Dash', sans-serif; /* Using 'Chalk Dash' font */
+}
+
+.dif-medium:hover {
+    background-color: #f3ae93;
+    transform: scale(1.05);
+}
+
+.dif-hard {
+    background-color: #ff8b94;
+    color: #333;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-shadow: 1px 1px #a8545b;
+    font-family: 'Chalk Dash', sans-serif; /* Using 'Chalk Dash' font */
+}
+
+.dif-hard:hover {
+    background-color: #f4727a;
+    transform: scale(1.05);
+}
+
+#dif-sel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

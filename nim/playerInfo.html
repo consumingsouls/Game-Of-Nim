@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Information</title>
+    <link rel="stylesheet" href="PlayerInfo.css">
+</head>
+<body>
+    <div id="chalkboard">
+        <h1>Enter Player Information</h1>
+        <form id="player-form">
+            <div class="player">
+                <h2>Player 1</h2>
+                <label for="player1-name">Name:</label>
+                <input type="text" id="player1-name" name="player1-name" required>
+                <label for="player1-icon">Icon:</label>
+                <input type="file" id="player1-icon" name="player1-icon" accept="image/*" required>
+                <label for="player1-color">Color:</label>
+                <input type="color" id="player1-color" name="player1-color" value="#ff0000" required>
+            </div>
+            <div class="player">
+                <h2>Player 2</h2>
+                <label for="player2-name">Name:</label>
+                <input type="text" id="player2-name" name="player2-name" required>
+                <label for="player2-icon">Icon:</label>
+                <input type="file" id="player2-icon" name="player2-icon" accept="image/*" required>
+                <label for="player2-color">Color:</label>
+                <input type="color" id="player2-color" name="player2-color" value="#0000ff" required>
+            </div>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+</body>
+</html>
